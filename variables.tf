@@ -9,6 +9,15 @@ variable "cidr_block" {
 }
 
 variable "env" {
-    default = "prod"
+    default = "dev"
   
+}
+
+variable "enable_dns_support" {
+    default = true
+  
+}
+
+variable "enable_dns_hostnames" {
+  default = true
 }
